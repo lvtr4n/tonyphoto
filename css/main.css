@@ -16,7 +16,6 @@ nav ul a:hover {
 .main-menu {
     position: fixed;
     z-index: 1;
-    top: 5%;
     left: 65%;
 }
 .dropdown-content {
@@ -25,9 +24,10 @@ nav ul a:hover {
 }
 .brand-logo img {
     border: 0;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     z-index: 3;
+    margin-left: 20px;
     position: relative;
 }
 .side-nav {
@@ -40,6 +40,10 @@ nav ul a:hover {
 .side-nav a:hover, .side-nav li:hover {
     color: #d3d3d3;
     background-color: transparent !important;
+}
+.big-nav-wrapper {
+    background: #000;
+    height: 150px;
 }
 
 /* Big Slider */
@@ -55,4 +59,9 @@ nav ul a:hover {
 #main-slider img, .owl-wrapper-outer, .owl-wrapper, .owl-item, .owl-item > div {
     width: 100%;
     height: auto;
+}
+
+/* Content */
+.content {
+    margin-top: 30px;
 }
