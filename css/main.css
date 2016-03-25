@@ -11,7 +11,7 @@
 }
 #main-slider img, .owl-wrapper-outer, .owl-wrapper, .owl-item, .owl-item > div {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 nav {
     box-shadow: none;
