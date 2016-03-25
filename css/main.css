@@ -50,6 +50,9 @@ nav ul a:hover {
     background: #000;
     height: 150px;
 }
+.dark-gray {
+    background-color: #424242;
+}
 
 /* Big Slider */
 #main-slider {
@@ -74,4 +77,13 @@ nav ul a:hover {
 .content .card img {
     width: 100%;
     height: auto;
+}
+.card-action a {
+    color: #575757 !important;
+}
+.card-action a:hover {
+    color: #d3d3d3 !important;
+}
+.albums .card-image img {
+    height: 400px;
 }
