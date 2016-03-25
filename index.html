@@ -17,7 +17,7 @@
 	<body>
 		<nav>
 		    <div class="nav-wrapper">
-		      <!--<a href="#" class="brand-logo">Logo</a>-->
+		      <a href="#" class="brand-logo"><img src="img/logo.png"/></a>
 		      <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
 		      <ul class="hide-on-med-and-down main-menu">
 		        <li><a href="">Wedding</a></li>
@@ -25,27 +25,31 @@
 		        <li><a href="">Contact</a></li>
 		      </ul>
 		      <ul class="side-nav" id="mobile-menu">
-		        <li><a href="">Wedding</a></li>
+		      	<li><a href="">Wedding</a></li>
 		        <li><a href="">Portrait</a></li>
 		        <li><a href="">Contact</a></li>
 		      </ul>
+		    </div>
 		</nav>
 		<div id="main-slider">
 			<div><img src="img/mainslider/1.jpg"/></div>
 			<div><img src="img/mainslider/2.jpg"/></div>
 	    	<div><img src="img/mainslider/3.jpg"/></div>
 	    	<div><img src="img/mainslider/4.jpg"/></div>
+	    	<!--<div><img src="img/mainslider/5.jpg"/></div>-->
 	    </div>
 		<script>
-		    $(".button-collapse").sideNav();
-		 	$("#main-slider").owlCarousel({
-		      navigation : false,
-		      pagination: false,
-		      singleItem:true,
-		      lazyLoad: true,
-		      autoPlay: true,
-		      autoplayTimeout: 3000,
-		      lazyFollow: true,
+			$(document).ready(function() {
+				$(".button-collapse").sideNav();
+			 	$("#main-slider").owlCarousel({
+			      navigation : false,
+			      pagination: false,
+			      singleItem:true,
+			      lazyLoad: true,
+			      autoPlay: true,
+			      autoplayTimeout: 3000,
+			      lazyFollow: true,
+				});
 			});
 		 </script>
 	</body>
