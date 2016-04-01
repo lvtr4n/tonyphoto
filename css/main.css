@@ -13,6 +13,20 @@ nav ul a:hover {
     opacity: 1 !important;
     background-color: transparent !important;
 }
+#bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../img/mainslider/1.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .main-menu {
     position: fixed;
     z-index: 1;
